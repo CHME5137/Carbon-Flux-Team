@@ -1,0 +1,9 @@
+This git repository will be used to upload code and other files for the Carbon Flux project.
+What we know/have done as of starting this repository:
+1. Can use the Python package mfapy to model carbon flux in metabolic pathways. Obtained from research article
+2. Know what reactions and pathways we are interested in and their chemistries
+3. Have created this git repository to keep track of changes and have a central place to upload code
+
+What our goals are for this project:
+1. Create code that models the carbon fluxes along a metabolic pathway
+2. Write a report in Latex about our project
