@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #Opened Anaconda and then Jupyterlab\
+#Cloned mfapy GitHub to \'93Xoots\\__Experiment_Data\\mfapy\'94 folder\
+#Opened a terminal from Jupyterlab, cd to this mfapy folder\
+#Followed the mfapy README and set up an environment using this:\
+\
+conda create -n mfapy python=3.9 numpy scipy matplotlib joblib\
+\
+#Note that environment will be saved in Anaconda\\envs\\mfapy\
+\
+conda activate mfapy\
+\
+#After activating, it is easy to see which environment is being used, because it is the first part of the terminal line\
+\
+conda install -c conda-forge nlopt\
+conda install -c anaconda mkl-service\
+\
+#Also updated anaconda using:\
+\
+conda update -n base -c defaults conda\
+\
+#Note that the conda version can checked with:\
+\
+conda info\
+\
+#Then installed and tested mfapy using:\
+\
+python setup.py install\
+python setup.py test\
+\
+#Test failed, seems to be due to missing nlopt, maybe they were taken out when conda was updated, so reran them AGAIN:\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 conda install -c conda-forge nlopt\
+conda install -c anaconda mkl-service\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 #Then installed and tested mfapy AGAIN using:\
+\
+python setup.py install\
+python setup.py test\
+\
+#Still got this error:\
+ModuleNotFoundError: No module named 'nlopt'\
+\
+#Tried installing nlopt directly using:\
+pip install nlopt\
+\
+#Then tested AGAIN, and the test result was \'93OK\'94 (38 tests in 1.5 s)\
+\
+#Closed terminal, then opened a notebook in the mfapy folder, which uses the \'93ipykernel\'94 (upper right)\
+\
+}
