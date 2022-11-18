@@ -17,3 +17,4 @@ metabolite,Suc,fixed,100,1,0,300
 metabolite,Fum,fixed,100,1,0,300
 metabolite,Glu,fixed,100,1,0,300
 metabolite,Asp,fixed,10,1,0,300
+reversible,FUM,free,50,1,0,300

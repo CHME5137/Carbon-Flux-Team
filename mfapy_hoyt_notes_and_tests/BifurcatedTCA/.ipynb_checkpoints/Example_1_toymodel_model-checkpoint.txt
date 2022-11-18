@@ -31,7 +31,7 @@ Fum	4	symmetry	no	no	(kegg:C00122)	0	300
 Glu	5	no	no	no	(kegg:C00025)	0	300
 Gluex	5	no	no	excreted	(kegg:C00025)	0	300
 Asp	4	no	carbonsource	no	(kegg:C00049)	0	300
-Sucex	4	no	no	excreted	(kegg:C00042)	0	300
+Sucex	4	symmetry	no	no	(kegg:C00042)	0	300
 //Reversible_reactions
 #Name	Forward reaction	Reverse reaction	External ID
 # Definition of Target fragments
