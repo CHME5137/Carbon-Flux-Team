@@ -1,0 +1,7 @@
+Testing Notes 11/15:
+
+Creating branch Testing TCA_Ex1_ToyModel:
+- Attempting to have program compute flux data for another reaction
+	- Error --> initial flux data is not present
+	- Most likely due to lack of MDV data --> need to create txt file with MDV data in order to
+	  compute flux

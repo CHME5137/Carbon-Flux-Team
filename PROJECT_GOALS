@@ -5,7 +5,8 @@ What we know/have done as of starting this repository:
 3. Have created this git repository to keep track of changes and have a central place to upload code
 
 What our goals are for this project:
-1. Create code that models the carbon fluxes along a metabolic pathway
+1. Create code that models the carbon fluxes along the TCA cycle of E. limosum, with the ability to modulate the 
+reaction pathway based on need
 2. Write a report in Latex about our project
 
 Making this change through Git bash.
@@ -18,5 +19,9 @@ To Do List:
 5. Try adding a metabolite or reaction to the metabolic model - Wed/Thurs
 6. Try using own 13C labelling data and own metabolic model to get fluxes - Wed/Thurs
 7. Look at confidence intervals, metabolite sensitivities.
-8. Write up results, make powerpoint -- by Dec 6th 
+8. Write up results, make powerpoint -- by Dec 6th
 
+First Steps:
+- Successfully incorporate bifurcated TCA cycle of E. limosum and calculate fluxes of this 
+metabolic pathway
+- Create jupyter notebook files to accomplish seperate tasks, which will be combined in the final code later 
