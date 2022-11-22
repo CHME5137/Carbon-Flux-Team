@@ -1,0 +1,17 @@
+Testing Notes 11/22:
+
+- Narrow down reactions/molecules of interest; may help simplify code and inputs. 
+  These molecules will require MDV data to input:
+	- Alanine (Pyruvate)
+	- Glutamate (AKG)
+	- Aspartate (OOA)
+- import mfapy doesn't work in subfolders for me for some reason while using jupyter notebooks :/
+- "Free" vs "Fixed" flux values (specified in csv input file)
+	- a free flux changes within spec'd bounds
+	- a fixed flux is spec'd and fixed
+		- investigate whether we need to fix at least one flux value
+
+- To-do for now:
+	- get some MDV data to input
+	- upload explanation .py file
+	- get started on our code's GUI

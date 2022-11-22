@@ -1,0 +1,5 @@
+Testing Notes 11/18
+
+- Load MDV files using model.load_mdv_files function
+- Carbon source instances set up using model.generate function
+- Look into which example code applies to our project the most for reference
