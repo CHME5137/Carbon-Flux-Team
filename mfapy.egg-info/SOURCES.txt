@@ -14,8 +14,6 @@ mfapy.egg-info/SOURCES.txt
 mfapy.egg-info/dependency_links.txt
 mfapy.egg-info/requires.txt
 mfapy.egg-info/top_level.txt
-sample/Example_0_toymodel.py
-sample/Example_0_toymodel_model.txt
 sample/Example_0_toymodel_status.csv
 sample/Example_1_MDV1.txt
 sample/Example_1_MDV2.txt
@@ -23,10 +21,8 @@ sample/Example_1_toymodel.py
 sample/Example_1_toymodel_model.txt
 sample/Example_1_toymodel_status.csv
 sample/Example_2_1_Ecoli.py
-sample/Example_2_2_Ecoli_solver_comparison.py
 sample/Example_2_3_Ecoli_local_optimum.py
 sample/Example_2_Ecoli_mdv.txt
-sample/Example_2_Ecoli_model.txt
 sample/Example_2_Ecoli_status.csv
 sample/Example_3_MCF7.py
 sample/Example_3_MCF7_mdv_1_13C_Glc.txt
@@ -44,7 +40,6 @@ sample/Example_6_INST_mdvtimecourse10.txt
 sample/Example_6_INST_mdvtimecourse15.txt
 sample/Example_6_INST_mdvtimecourse30.txt
 sample/Example_6_INST_mdvtimecourse5.txt
-sample/Example_6_INST_mdvtimecourse50.txt
 sample/Example_7_CancerCell_model.txt
 sample/Example_7_MCF7_C24_U_CIT.txt
 sample/Example_7_MCF7_C24_U_CIT.txt.csv
@@ -54,14 +49,9 @@ sample/Example_7_MonteCalro.py
 sample/Example_7_flux_dist_CancerCell.csv
 sample/Explanation_1_13CMFA_metabolite_balance.csv
 sample/Explanation_1_13CMFA_output.csv
-sample/Explanation_1_13CMFA_toymodel.py
 sample/Explanation_1_13CMFA_toymodel_carbonsource2.txt
-sample/Explanation_1_13CMFA_toymodel_mdv.txt
 sample/Explanation_1_13CMFA_toymodel_mdv1.txt
 sample/Explanation_1_13CMFA_toymodel_model.txt
-sample/Explanation_1_13CMFA_toymodel_output.csv
-sample/Explanation_1_13CMFA_toymodel_status.csv
-sample/.ipynb_checkpoints/Example_7_MonteCalro-checkpoint.py
 tests/__init__.py
 tests/test_carbonsource.py
 tests/test_mdv.py
@@ -69,5 +59,4 @@ tests/test_metabolicmodel.py
 tests/test_metabolicmodel_state.csv
 tests/test_mfapyio.py
 tests/test_mfapyio_model.txt
-tests/.ipynb_checkpoints/test_metabolicmodel-checkpoint.py
-tests/.ipynb_checkpoints/test_metabolicmodel_state-checkpoint.csv
+tests/.ipynb_checkpoints/test_carbonsource-checkpoint.py
