@@ -1,0 +1,277 @@
+Cysteine, Formula, C3H7NO2S
+, Tgt RT, 1.600, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,, Corrected Abundance Percentages,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,Abund,m+0,m+1,m+2,m+3,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,122.02703,123.03038,124.03374,125.03709,Sum,122.02703,123.03038,124.03374,125.03709,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,1,D2.d,1.724,1924,1655,0,0,3578,54.69,45.31,0,0,100.00,54.69, 45.31, 15.10
+,13CBicarb+NoAcet 02,1,E2.d,1.730,7972,6111,0,0,14083,57.72,42.28,0,0,100.00,57.72, 42.28, 14.09
+,13CBicarb+NoAcet 02,1,F2.d,1.728,3177,4003,4355,0,11535,27.89,33.87,38.25,0,100.00,27.89, 72.11, 36.79
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,53.23,16.419,21.99,12.820
+
+Phenylalanine, Formula, C9H11NO2
+, Tgt RT, 2.400, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,,,,,, Corrected Abundance Percentages,,,,,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,m+6,m+7,m+8,m+9,Abund,m+0,m+1,m+2,m+3,m+4,m+5,m+6,m+7,m+8,m+9,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,166.08626,167.08961,168.09296,169.09632,170.09967,171.10303,172.10638,173.10974,174.11309,175.11645,Sum,166.08626,167.08961,168.09296,169.09632,170.09967,171.10303,172.10638,173.10974,174.11309,175.11645,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,2,D2.d,2.409,0,3527777,8998945,15263410,18761130,14140160,6220892,1445611,206261,19753,68583942,0,5.28,13.10,22.19,27.59,20.72,8.93,1.93,0.24,0.02,100.00,0.00, 100.00, 42.36
+,13CBicarb+NoAcet 02,2,E2.d,2.431,0,2957832,8150306,14460460,17806720,13266000,5687514,1251757,164223,13022,63757833,0,4.74,12.76,22.66,28.19,20.91,8.76,1.77,0.20,0.01,100.00,0.00, 100.00, 42.46
+,13CBicarb+NoAcet 02,2,F2.d,2.405,431550,961270,2619946,4656433,5761429,4246544,1839766,436694,59128,5124,21017881,2.15,4.45,12.46,22.16,27.72,20.30,8.60,1.91,0.22,0.01,100.00,2.15, 97.85, 41.69
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,99.28,1.241,42.17,0.421
+
+Isoleucine, Formula, C6H13NO2
+, Tgt RT, 2.800, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,,, Corrected Abundance Percentages,,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,m+6,Abund,m+0,m+1,m+2,m+3,m+4,m+5,m+6,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,132.10191,133.10526,134.10861,135.11197,136.11532,137.11868,138.12203,Sum,132.10191,133.10526,134.10861,135.11197,136.11532,137.11868,138.12203,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,3,D2.d,2.781,2347755,12032620,18382420,12804240,3689185,550416,44176,49850806,4.71,24.59,37.31,25.58,6.87,0.90,0.05,100.00,4.71, 95.29, 34.70
+,13CBicarb+NoAcet 02,3,E2.d,2.786,2438619,12388390,19285830,13251000,3642235,520231,36018,51562314,4.74,24.46,37.89,25.58,6.50,0.80,0.03,100.00,4.74, 95.26, 34.53
+,13CBicarb+NoAcet 02,3,F2.d,2.793,2652480,13880940,19828530,15021240,4197435,613288,45589,56239497,4.71,25.20,35.50,26.77,6.90,0.88,0.04,100.00,4.71, 95.29, 34.79
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,95.28,0.013,34.67,0.131
+
+Leucine, Formula, C6H13NO2
+, Tgt RT, 3.000, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,,, Corrected Abundance Percentages,,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,m+6,Abund,m+0,m+1,m+2,m+3,m+4,m+5,m+6,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,132.10191,133.10526,134.10861,135.11197,136.11532,137.11868,138.12203,Sum,132.10191,133.10526,134.10861,135.11197,136.11532,137.11868,138.12203,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,4,D2.d,3.017,2670348,14155150,22310140,17149360,5899627,976257,83086,63243958,4.21,22.76,35.62,27.11,8.89,1.31,0.08,100.00,4.21, 95.79, 36.33
+,13CBicarb+NoAcet 02,4,E2.d,3.014,2718460,14434720,23639440,18407770,6170211,965480,81475,66417557,4.08,22.07,35.98,27.75,8.83,1.21,0.07,100.00,4.08, 95.92, 36.52
+,13CBicarb+NoAcet 02,4,F2.d,3.022,2617092,14168670,22503870,17626920,5971599,960292,80407,63928852,4.08,22.54,35.54,27.61,8.89,1.27,0.07,100.00,4.08, 95.92, 36.47
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,95.87,0.076,36.44,0.097
+
+Methionine, Formula, C5H11NO2S
+, Tgt RT, 3.200, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,, Corrected Abundance Percentages,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,Abund,m+0,m+1,m+2,m+3,m+4,m+5,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,150.05833,151.06168,152.06504,153.06839,154.07175,155.07510,Sum,150.05833,151.06168,152.06504,153.06839,154.07175,155.07510,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,5,D2.d,3.195,446967,2367643,4097452,3220225,803027,0,10935312,4.18,22.52,38.81,29.41,5.08,0,100.00,4.18, 95.82, 41.74
+,13CBicarb+NoAcet 02,5,E2.d,3.209,306867,1471179,2601598,1987759,495831,0,6863233,4.60,22.26,39.31,28.88,4.95,0,100.00,4.60, 95.40, 41.46
+,13CBicarb+NoAcet 02,5,F2.d,3.216,490001,2524356,4486508,3457144,853365,0,11811373,4.25,22.20,39.40,29.22,4.93,0,100.00,4.25, 95.75, 41.67
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,95.66,0.224,41.62,0.144
+
+Tyrosine, Formula, C9H11NO3
+, Tgt RT, 3.500, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,,,,,, Corrected Abundance Percentages,,,,,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,m+6,m+7,m+8,m+9,Abund,m+0,m+1,m+2,m+3,m+4,m+5,m+6,m+7,m+8,m+9,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,182.08117,183.08452,184.08788,185.09123,186.09459,187.09794,188.10130,189.10465,190.10801,191.11136,Sum,182.08117,183.08452,184.08788,185.09123,186.09459,187.09794,188.10130,189.10465,190.10801,191.11136,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,6,D2.d,3.491,103765,244850,688256,1137937,1389528,1111153,507656,138069,20136,3157,5344508,2.03,4.47,12.95,21.26,26.20,21.00,9.34,2.41,0.29,0.05,100.00,2.03, 97.97, 42.17
+,13CBicarb+NoAcet 02,6,E2.d,3.496,150370,354229,987293,1765012,2126262,1650626,739475,194957,29523,0,7997747,1.97,4.33,12.36,22.14,26.80,20.80,9.06,2.25,0.29,0,100.00,1.97, 98.03, 42.13
+,13CBicarb+NoAcet 02,6,F2.d,3.495,190902,399310,1059600,1810016,2208950,1806957,796940,223237,35451,4037,8535399,2.35,4.56,12.44,21.22,26.05,21.45,9.13,2.44,0.34,0.03,100.00,2.35, 97.65, 42.15
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,97.88,0.203,42.15,0.024
+
+Valine, Formula, C5H11NO2
+, Tgt RT, 3.800, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,, Corrected Abundance Percentages,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,Abund,m+0,m+1,m+2,m+3,m+4,m+5,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,118.08626,119.08961,120.09296,121.09632,122.09967,123.10303,Sum,118.08626,119.08961,120.09296,121.09632,122.09967,123.10303,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,7,D2.d,3.753,2983867,6092442,7802845,4921003,1116692,99000,23015849,13.29,26.45,34.10,21.37,4.50,0.30,100.00,13.29, 86.71, 35.65
+,13CBicarb+NoAcet 02,7,E2.d,3.767,3290448,6709086,8770011,5547353,1162706,102013,25581617,13.18,26.19,34.51,21.70,4.15,0.27,100.00,13.18, 86.82, 35.65
+,13CBicarb+NoAcet 02,7,F2.d,3.757,3719117,7301882,9470697,6171859,1350152,114769,28128475,13.56,25.89,33.86,21.99,4.43,0.27,100.00,13.56, 86.44, 35.73
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,86.66,0.195,35.67,0.045
+
+Proline, Formula, C5H9NO2
+, Tgt RT, 4.000, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,, Corrected Abundance Percentages,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,Abund,m+0,m+1,m+2,m+3,m+4,m+5,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,116.07060,117.07396,118.07731,119.08067,120.08402,121.08738,Sum,116.07060,117.07396,118.07731,119.08067,120.08402,121.08738,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,8,D2.d,3.905,1997136,10942590,29372330,21695070,4765646,404491,69177258,2.84,15.56,43.28,31.58,6.35,0.39,100.00,2.84, 97.16, 44.84
+,13CBicarb+NoAcet 02,8,E2.d,3.902,1757609,9589674,23531090,17648800,3776677,307000,56610846,3.06,16.75,42.29,31.43,6.13,0.34,100.00,3.06, 96.94, 44.37
+,13CBicarb+NoAcet 02,8,F2.d,3.909,1661084,9063484,24566010,18529480,3997478,339032,58156573,2.81,15.32,43.04,32.12,6.32,0.38,100.00,2.81, 97.19, 44.99
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,97.10,0.134,44.73,0.324
+
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+
+Threonine, Formula, C4H9NO3
+, Tgt RT, 4.300, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,, Corrected Abundance Percentages,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,Abund,m+0,m+1,m+2,m+3,m+4,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,120.06552,121.06887,122.07223,123.07558,124.07894,Sum,120.06552,121.06887,122.07223,123.07558,124.07894,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,10,D2.d,4.268,413063,1992578,3124972,2289943,276908,8097463,5.02,24.61,38.76,28.69,2.92,100.00,5.02, 94.98, 49.97
+,13CBicarb+NoAcet 02,10,E2.d,4.274,386070,1786318,2811434,2008402,230629,7222852,5.27,24.73,39.13,28.19,2.68,100.00,5.27, 94.73, 49.57
+,13CBicarb+NoAcet 02,10,F2.d,4.264,384624,1861104,2910807,2163166,286846,7606546,4.97,24.47,38.41,28.85,3.30,100.00,4.97, 95.03, 50.26
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,94.92,0.160,49.93,0.343
+
+Alanine, Formula, C3H7NO2
+, Tgt RT, 4.300, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,, Corrected Abundance Percentages,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,Abund,m+0,m+1,m+2,m+3,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,90.05495,91.05831,92.06166,93.06502,Sum,90.05495,91.05831,92.06166,93.06502,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,11,D2.d,4.201,602622,1262747,1353827,238326,3457522,17.51,36.35,39.68,6.47,100.00,17.51, 82.49, 45.03
+,13CBicarb+NoAcet 02,11,E2.d,4.206,507612,1130054,1208512,198512,3044690,16.72,36.98,40.23,6.06,100.00,16.72, 83.28, 45.21
+,13CBicarb+NoAcet 02,11,F2.d,4.205,522417,1100846,1206078,200773,3030114,17.31,36.15,40.37,6.17,100.00,17.31, 82.69, 45.13
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,82.82,0.408,45.13,0.088
+
+Glycine, Formula, C2H5NO2
+, Tgt RT, 4.600, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,, Corrected Abundance Percentages,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,Abund,m+0,m+1,m+2,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,76.03930,77.04266,78.04601,Sum,76.03930,77.04266,78.04601,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,12,D2.d,4.556,24145,56328,42823,123296,19.39,45.53,35.08,100.00,19.39, 80.61, 57.85
+,13CBicarb+NoAcet 02,12,E2.d,4.553,22764,51630,44412,118807,18.97,43.18,37.84,100.00,18.97, 81.03, 59.43
+,13CBicarb+NoAcet 02,12,F2.d,4.543,26157,44323,40262,110742,23.55,39.60,36.85,100.00,23.55, 76.45, 56.65
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,79.36,2.529,57.98,1.395
+
+Serine, Formula, C3H7NO3
+, Tgt RT, 4.700, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,, Corrected Abundance Percentages,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,Abund,m+0,m+1,m+2,m+3,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,106.04987,107.05322,108.05658,109.05993,Sum,106.04987,107.05322,108.05658,109.05993,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,13,D2.d,4.691,527515,1048777,949742,161907,2687940,19.78,39.03,35.67,5.52,100.00,19.78, 80.22, 42.31
+,13CBicarb+NoAcet 02,13,E2.d,4.688,504688,1071287,948853,156709,2681536,18.95,40.03,35.70,5.32,100.00,18.95, 81.05, 42.47
+,13CBicarb+NoAcet 02,13,F2.d,4.687,573025,1103292,1035137,169746,2881200,20.06,38.25,36.31,5.37,100.00,20.06, 79.94, 42.33
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,80.40,0.581,42.37,0.086
+
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+
+Glutamate, Formula, C5H9NO4
+, Tgt RT, 5.500, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,, Corrected Abundance Percentages,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,Abund,m+0,m+1,m+2,m+3,m+4,m+5,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,148.06043,149.06379,150.06714,151.07050,152.07385,153.07721,Sum,148.06043,149.06379,150.06714,151.07050,152.07385,153.07721,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,15,D2.d,5.502,1369779,7756767,22058780,15731630,3669463,351256,50937680,2.65,15.00,44.40,31.07,6.52,0.36,100.00,2.65, 97.35, 44.97
+,13CBicarb+NoAcet 02,15,E2.d,5.499,1475837,8098094,21627430,15214030,3359977,314610,50089977,2.92,15.99,44.25,30.55,6.00,0.30,100.00,2.92, 97.08, 44.33
+,13CBicarb+NoAcet 02,15,F2.d,5.481,1336059,6846287,21051480,14993910,3467995,331491,48027220,2.76,13.95,45.00,31.41,6.52,0.36,100.00,2.76, 97.24, 45.21
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,97.22,0.131,44.84,0.455
+
+Asparagine, Formula, C4H8N2O3
+, Tgt RT, 5.600, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,, Corrected Abundance Percentages,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,Abund,m+0,m+1,m+2,m+3,m+4,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,133.06077,134.06412,135.06748,136.07083,137.07419,Sum,133.06077,134.06412,135.06748,136.07083,137.07419,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,16,D2.d,5.502,839068,205307,21433,0,0,1065807,83.03,16.11,0.86,0,0,100.00,83.03, 16.97, 4.46
+,13CBicarb+NoAcet 02,16,E2.d,5.499,819029,183097,18486,0,0,1020612,84.68,14.62,0.70,0,0,100.00,84.68, 15.32, 4.00
+,13CBicarb+NoAcet 02,16,F2.d,5.481,809988,189242,23700,0,0,1022930,83.52,15.26,1.22,0,0,100.00,83.52, 16.48, 4.43
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,16.26,0.849,4.30,0.254
+
+Aspartate, Formula, C4H7NO4
+, Tgt RT, 6.000, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,, Corrected Abundance Percentages,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,Abund,m+0,m+1,m+2,m+3,m+4,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,134.04478,135.04814,136.05149,137.05485,138.05820,Sum,134.04478,135.04814,136.05149,137.05485,138.05820,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,17,D2.d,5.925,500835,2382854,4024802,3026666,438073,10373230,4.76,22.93,39.04,29.59,3.68,100.00,4.76, 95.24, 51.13
+,13CBicarb+NoAcet 02,17,E2.d,5.922,520605,2326592,4049611,2909066,426687,10232560,5.03,22.66,39.90,28.78,3.63,100.00,5.03, 94.97, 50.83
+,13CBicarb+NoAcet 02,17,F2.d,5.912,501717,2366657,4024957,3050824,448811,10392965,4.76,22.73,38.96,29.77,3.78,100.00,4.76, 95.24, 51.27
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,95.15,0.157,51.08,0.226
+
+Histidine, Formula, C6H9N3O2
+, Tgt RT, 6.200, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,,, Corrected Abundance Percentages,,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,m+6,Abund,m+0,m+1,m+2,m+3,m+4,m+5,m+6,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,156.07675,157.08011,158.08346,159.08682,160.09017,161.09353,162.09688,Sum,156.07675,157.08011,158.08346,159.08682,160.09017,161.09353,162.09688,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,18,D2.d,6.111,3092871,9692605,16957970,16880330,8302599,2107666,221673,57255715,5.54,17.02,29.82,29.70,14.23,3.41,0.28,100.00,5.54, 94.46, 40.24
+,13CBicarb+NoAcet 02,18,E2.d,6.108,2987303,9399014,16822020,16690010,7969411,1960793,192318,56020873,5.47,16.86,30.26,30.03,13.92,3.22,0.24,100.00,5.47, 94.53, 40.11
+,13CBicarb+NoAcet 02,18,F2.d,6.115,3199301,9582573,16676340,17137830,8139053,2098565,224027,57057688,5.76,16.87,29.39,30.34,13.94,3.42,0.29,100.00,5.76, 94.24, 40.20
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,94.41,0.151,40.18,0.063
+
+Arginine, Formula, C6H14N4O2
+, Tgt RT, 6.800, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,,, Corrected Abundance Percentages,,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,m+6,Abund,m+0,m+1,m+2,m+3,m+4,m+5,m+6,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,175.11895,176.12231,177.12566,178.12902,179.13237,180.13573,181.13908,Sum,175.11895,176.12231,177.12566,178.12902,179.13237,180.13573,181.13908,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,19,D2.d,6.694,1078941,3400051,14549150,27603700,17001030,3756819,344258,67733955,1.63,4.77,21.46,41.88,25.04,4.91,0.30,100.00,1.63, 98.37, 49.98
+,13CBicarb+NoAcet 02,19,E2.d,6.691,1192830,3541138,14268140,25907270,15657120,3293557,295697,64155745,1.91,5.26,22.27,41.48,24.33,4.49,0.26,100.00,1.91, 98.09, 49.26
+,13CBicarb+NoAcet 02,19,F2.d,6.698,1180236,2949230,12648330,24608230,15173970,3290759,304435,60155189,2.02,4.62,20.98,42.08,25.18,4.82,0.30,100.00,2.02, 97.98, 49.91
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,98.15,0.201,49.72,0.394
+
+Lysine, Formula, C6H14N2O2
+, Tgt RT, 7.200, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,,, Corrected Abundance Percentages,,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,m+6,Abund,m+0,m+1,m+2,m+3,m+4,m+5,m+6,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,147.11280,148.11616,149.11951,150.12287,151.12622,152.12958,153.13293,Sum,147.11280,148.11616,149.11951,150.12287,151.12622,152.12958,153.13293,Sum, Unlabeled, Labeled, Labeling
+,13CBicarb+NoAcet 02,20,D2.d,7.176,1893954,11377870,24398200,27722670,14885240,3281929,282122,83841985,2.24,13.64,29.28,33.42,17.63,3.58,0.21,100.00,2.24, 97.76, 43.69
+,13CBicarb+NoAcet 02,20,E2.d,7.173,1907565,10758380,23397980,26473130,14330770,2954188,247021,80069036,2.37,13.49,29.42,33.41,17.81,3.32,0.19,100.00,2.37, 97.63, 43.59
+,13CBicarb+NoAcet 02,20,F2.d,7.180,1792734,10416470,21377250,24178070,13605290,2926392,250150,74546357,2.39,14.07,28.82,32.74,18.21,3.57,0.21,100.00,2.39, 97.61, 43.65
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13CBicarb+NoAcet 02,97.67,0.082,43.64,0.054
+
+

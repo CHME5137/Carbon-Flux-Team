@@ -1,0 +1,31 @@
+Acetate, Formula, C8O3N3H8
+, Tgt RT, 3.000, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,,,,, Corrected Abundance Percentages,,,,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,m+6,m+7,m+8,Abund,m+0,m+1,m+2,m+3,m+4,m+5,m+6,m+7,m+8,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,194.05766,195.06102,196.06437,197.06773,198.07108,199.07444,200.07779,201.08115,202.08450,Sum,194.05766,195.06102,196.06437,197.06773,198.07108,199.07444,200.07779,201.08115,202.08450,Sum, Unlabeled, Labeled, Labeling
+,13C-CO2 No Acetate 2,1,D2.d,2.999,23849,57325,10891,0,0,0,0,0,0,92065,27.57,65.56,6.86,0,0,0,0,0,0,100.00,27.57, 72.43, 9.91
+,13C-CO2 No Acetate 2,1,E2.d,2.990,27867,67291,12488,0,0,0,0,0,0,107646,27.56,65.85,6.59,0,0,0,0,0,0,100.00,27.56, 72.44, 9.88
+,13C-CO2 No Acetate 2,1,F2.d,2.989,20110,26201,5329,0,0,0,0,0,0,51639,42.06,51.62,6.33,0,0,0,0,0,0,100.00,42.06, 57.94, 8.03
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13C-CO2 No Acetate 2,67.60,8.365,9.27,1.074
+
+Butyrate, Formula, C10O3N3H12
+, Tgt RT, 3.900, minutes
+, RT tolerance, 0.200, minutes
+, m/z tolerance, 15.000, ppm
+, Abundance metric, EicCoreArea, (20.0 % threshold)
+,,,,, Ion Abundance,,,,,,,,,,,, Corrected Abundance Percentages,,,,,,,,,,,, Summary Statistics
+,,,,,m+0,m+1,m+2,m+3,m+4,m+5,m+6,m+7,m+8,m+9,m+10,Abund,m+0,m+1,m+2,m+3,m+4,m+5,m+6,m+7,m+8,m+9,m+10,Abund,%, %, % Fractional
+,SampleGroups, Cpd. Group, File Name, RT,222.08896,223.09232,224.09567,225.09903,226.10238,227.10574,228.10909,229.11245,230.11580,231.11916,232.12251,Sum,222.08896,223.09232,224.09567,225.09903,226.10238,227.10574,228.10909,229.11245,230.11580,231.11916,232.12251,Sum, Unlabeled, Labeled, Labeling
+,13C-CO2 No Acetate 2,2,D2.d,3.886,6615,32741,41708,12765,1500,0,0,0,0,0,0,95328,7.36,36.82,45.14,10.32,0.35,0,0,0,0,0,0,100.00,7.36, 92.64, 15.95
+,13C-CO2 No Acetate 2,2,E2.d,3.885,9106,25884,35575,13367,1493,0,0,0,0,1174,0,86599,11.37,31.27,42.45,12.94,0.32,0,0,0,0,1.65,0,100.00,11.37, 88.63, 17.11
+,13C-CO2 No Acetate 2,2,F2.d,3.884,7942,23727,40424,13731,2513,0,0,0,0,2479,0,90816,9.40,27.07,46.61,12.08,1.53,0,0,0,0,3.30,0,100.00,9.40, 90.60, 19.24
+,Summary Statistics, %labeled,,%fraction
+,Sample Groups, Mean, Std.Dev., Mean, Std.Dev.
+,13C-CO2 No Acetate 2,90.62,2.003,17.43,1.670
+
+
