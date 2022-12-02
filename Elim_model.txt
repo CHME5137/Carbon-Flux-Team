@@ -17,7 +17,7 @@ v4	AKG --> Suc + CO2ex	AKG --> Suc + CO2ex	ABCDE --> BCDE + A	(kegg:R01197)	0	30
 v5	Fum --> Suc	Fum --> Suc	ABCD --> ABCD	(kegg:R02164)	0	300
 v6	Suc --> Sucex	nd	nd 	(kegg:R00243)	0	300
 v7	OAC --> Fum	OAC --> Fum	ABCD --> ABCD	(kegg:R01082)	0	300
-v8	OAC --> Asp	OAC --> Asp	ABCD --> ABCD	(kegg:R00355)	0	300
+v8	Asp --> OAC	Asp --> OAC	ABCD --> ABCD	(kegg:R00355)	0	300
 v9	Glu --> Gluex	nd	nd 	(kegg:R00243)	0	300
 v10	Asp --> Aspex	nd	nd 	(kegg:R00243)	0	300
 //Metabolites
