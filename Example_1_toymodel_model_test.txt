@@ -16,9 +16,10 @@ v3	AKG --> Glu	AKG --> Glu	ABCDE --> ABCDE 	(kegg:R00243)	0	300
 v4	AKG --> Suc + CO2ex	AKG --> Suc + CO2ex	ABCDE --> BCDE + A	(kegg:R01197)	0	300
 v5	Fum --> Suc	Fum --> Suc	ABCD --> ABCD	(kegg:R02164)	0	300
 v6	OAC --> Fum	OAC --> Fum	ABCD --> ABCD	(kegg:R01082)	0	300
-v8	Asp --> OAC	Asp --> OAC	ABCD --> ABCD	(kegg:R00355)	0	300
+v8	OAC --> Asp	OAC --> Asp	ABCD --> ABCD	(kegg:R00355)	0	300
 v9	Glu --> Gluex	nd	nd 	(kegg:R00243)	0	300
-v10	Suc --> Sucex	nd	nd 	noid	0	300
+v11	AcCoA + CO2 --> Pyr	AcCoA + CO2 --> Pyr	AB + C --> ABC	noid	0	300
+v12	Pyr + CO2 --> OAC	Pyr + CO2 --> OAC	ABC + D --> ABCD	noid	0	300
 //Metabolites
 # Name	Number of atom	Symmetry	Carbon source	Excreted metabolite	External ID
 CO2ex	1	no	no	excreted	(kegg:C00011)	0	300
@@ -26,16 +27,18 @@ AcCoA	2	no	carbonsource	no	(kegg:C00024)	0	300
 OAC	4	no	no	no	(kegg:C00036)	0	300
 Cit	6	no	no	no	(kegg:C00158)	0	300
 AKG	5	no	no	no	(kegg:C00026)	0	300
-Suc	4	symmetry	no	no	(kegg:C00042)	0	300
+Suc	4	symmetry	no	excreted	(kegg:C00042)	0	300
 Fum	4	symmetry	no	no	(kegg:C00122)	0	300
 Glu	5	no	no	no	(kegg:C00025)	0	300
 Gluex	5	no	no	excreted	(kegg:C00025)	0	300
-Asp	4	no	carbonsource	no	(kegg:C00049)	0	300
-Sucex	4	symmetry	no	excreted	noid	0	300
+Asp	4	no	no	excreted	(kegg:C00049)	0	300
+CO2	1	no	carbonsource	no	noid	0	300
+Pyr	3	no	no	no	noid	0	300
 //Reversible_reactions
 #Name	Forward reaction	Reverse reaction	External ID
 # Definition of Target fragments
 //Target_fragments
 #Name	Type (gcms and msms)	Corresponding metabolite and atoms	Usage	Formula (Experimental)
 GluMes	gcms	Glu_1:2:3:4:5	use	C5H10N2O3
+AspMes	gcms	Asp_1:2:3:4	use	C4H7NO4
 //End
