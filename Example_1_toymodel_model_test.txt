@@ -40,5 +40,5 @@ Pyr	3	no	no	no	noid	0	300
 //Target_fragments
 #Name	Type (gcms and msms)	Corresponding metabolite and atoms	Usage	Formula (Experimental)
 GluMes	gcms	Glu_1:2:3:4:5	use	C5H10N2O3
-AspMes	gcms	Asp_1:2:3:4	use	C4H7NO4
+PyrMes	gcms	Pyr_1:2:3	use	C3H4O3
 //End
