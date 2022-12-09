@@ -1,0 +1,79 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red222\green68\blue70;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c90588\c36078\c34510;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww21680\viewh13740\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Removed acetone and IPA production:\
+- removed runs 43, 44, 45, 46, 47, 48 from status and model files\
+- removed acetone, acetonex, IPA, IPAex, AcAc, AcAcCoA from status and model files\
+\'97> The model was able to be generated.\
+\
+Removed amino acids from carbon source:\
+- removed rxns r95-r103 from the status file. Note that \'93SubsAla\'94 etc were not listed in the status metabolite list, but were listed in the carbon source script. Removed from the carbon source script also. \
+- removed rxns r95-r103 from the model file. Removed \'93SubsAla\'94 etc from metabolites list, where they were defined as a carbon source. \
+\'97> The model ran, using CO2 as the carbon source instance, fluxes were able to be calculated. \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Change \'93target fragments\'94 section of model file to list isotopologues, checked if model will run. \
+- in model file, under \'93target fragments\'94:\
+	- set AA list to same AAs, but only listed one, since not fragmented. used suffix \'93Mes\'94 to indicated measured.\
+	- since Elim data is not fragmented, replaced \'93gcms\'94 type with \'93intermediate\'94. \
+		- This will play into the number of m+ terms that will be searched for in the mdv file, and it seems to relate to the natural isotope correction. \
+		- Check back to screenshot from metabolic model.py, lines ~200\
+	- confirmed that model will configure with this change. \
+	- changed E coli mdv list so only one isotopologue per AA, used 0s for missing values like m+4< of Tyr. Hit error in the \'93generate initial states\'94 script. \'93Error in 26 -0.01\'94, I think likely due to the fake data. \
+	- Changed mdv file to include actual triplicate E. lim data for the AAs that were already included\
+		- no errors! the E lim mdv were able to be used to generate initial states, and calculate flux. (result 2)\
+		- realized select 1 column was left out of mdv file. Added it and reran. got different fluxes (result 2 w select 1)\
+	- ???? Initial states seem to be generated based on mdv data, but paper says they are random numbers?  Not sure about that?\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Next looked at current flux results (result 2 w select 1)\
+	- Rxns 51 - 55 can be removed from model file and status file (formate, succinate, citrate, and aKG are not being excreted and are not labelled in our system)\
+		- got error that formate was not used in metabolic network, but model could still be generated, fluxes calculated (result3)\
+\
+Confirmed presence of C1 units\
+	- model includes serine and glycine, MEETHF\
+	- r70 and r 71 - also includes CO2 incorporation here, which should not apply to acetogens, so removed rxns from model and status files. Did not remove any metbaolites. \
+		- got error when constructing the model. Pretty sure this is because of a carbon imbalance related to producing Gly. Model can\'92t really make Gly so can\'92t make MEETHF, so can\'92t make biomass, might be a futile loop? \
+		- 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 IndexError\cf3 \strokec3 : index 0 is out of bounds for axis 0 with size 0
+\f0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+	- To see if we can address this issue in the model, will start adding in lumped WLP \
+		- see handwritten notes, rxns 104 - 109, added metabolites METHF, SubsMethanol, methanol)\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 			- add in methanol via MTI/MTII, methanol is a 12C carbon source too\
+			- add in CO2 incorporation via ACS/CODH\
+		- Model constructed!  Fluxes were calculated!  Flux is carried through the methanol steps! \
+\
+Clean up carbon source terms:\
+	- In status file, set r1 for Subsgluc to the following: fixed, 0, 1, then left lb and ub the same. \
+		- Reran the model (result4) and got 0 flux for r1, still got generation of G6P. This is interesting, could be a model artifact, but is also showing reverse flux through gluconeogenesis! \
+		???? Need to check if every metabolite in status file should be listed as fixed, 10. Subsgluc might need to be 0. Check Matsuda paper. \
+	- In status file, set r104 to fixed, 100, 1, left lb and ub the same. This should normalize fluxes to methanol uptake. \
+		- Reran, model constructed, starting to get interesting fluxes! Lots of flux both ways through PFOR! \
+			- ???? Realized those model runs were using 0% 13C bicarb, so labelling from mdv may be attributed to the fixed biomass steps? or something else?   \
+		- Since methanol is 100% 12C, but do need to correct for the natural abundance, will list in carbon source script\
+		- ???? Verify how to include CO2 as 99% tracer, with natural abundance correction for both meoh and CO2\
+	- Changed carbon source script to the following:\
+			- carbon_source1.set_each_isotopomer('SubsCO2',\{'#0': 0.01, '#1': 0.99\}, correction = 'yes') #correction = 'yes')\
+			- carbon_source1.set_each_isotopomer('Subsmeoh',\{'#0': 1.0, '#1': 0.0\}, correction = 'yes') #correction = 'yes')\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Remaining To Do List\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 - Finish up AA pathways: \
+	- ???? Clarify how to represent biomass compounds, labelled AAs\
+	- Later on, add new AA biosynthesis pathways for newly added AAs.  (refer to C. ljung paper) See if model will run, and then add associated mdv to mdv file. \
+	- What does it mean if model doesn\'92t have all 20 AAs? This is just core carbon, but AAs do represent resource allocation?  Maciek includes all 20. Maybe check early papers. \
+	- Consider whether any newly added AAs should be added to biomass incorporation\
+	- Current model seems to include G-values for unlabelled preculture (psuedo steps), consider if new AAs should be added. \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 - Add in remainder of WLP, it is a lumped partial pathway for now:\
+	- Later on, add in methionine, histidine from Maciek\'92s paper\
+- Add in bifurcated TCA cycle (refer to C. ljung paper)\
+- If time, add in acetate and butyrate labelling, generation rate\
+- Then add in energy carriers }
