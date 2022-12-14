@@ -1,10 +1,10 @@
 #-------------------------------------------------------------------------------							
-# Name:        Example_2_Ecoli_model.txt							
-#              Model definition file for Example 2 of mfapy							
+# Name:        Adapted E. limosum Model							
+#              Model definition file for E. limosum of mfapy							
 #							
-# Author:      Fumio_Matsuda							
+# Author:      Katie Hoyt Christian Byrd Fumio_Matsuda							
 #							
-# Created:     12/06/2018							
+"# Created:     12/06/2018, revised December 2022"							
 # Copyright:   (c) Fumio_Matsuda 2021							
 # Licence:     MIT license							
 #-------------------------------------------------------------------------------							
